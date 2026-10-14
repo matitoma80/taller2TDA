@@ -29,7 +29,6 @@ public class viaje{
         }
 
         //inicializo memoria
-        //uso 0:descanso, 1:competencia, 2:gimnasio
         memoria = new int[tiempo+1][lugares+1];
         for (int j = 0; j < tiempo+1; j++){
             for (int k = 0; k < lugares+1; k++){
